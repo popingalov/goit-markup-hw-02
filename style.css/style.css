@@ -7,9 +7,12 @@
   --background-header: #ffffff;
   --background-footer: #2f303a;
 }
-/* не знаю как по другому */
-a[href^='./i']:visited {
+/* не знаю как по другому, но работает))) */
+header a[href^='./i']:visited {
   color: var(--h-and-li-cl);
+}
+footer a[href^='./i'] {
+  color: var(--background-header);
 }
 
 .logo-web {
@@ -34,6 +37,9 @@ footer {
 }
 footer a {
   color: rgba(255, 255, 255, 0.6);
+}
+.addres {
+  color: var(--background-header);
 }
 
 body {
@@ -112,6 +118,7 @@ a {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: var(--h-and-li-cl);
 }
 .team-p {
   font-family: var(--hero-font);
