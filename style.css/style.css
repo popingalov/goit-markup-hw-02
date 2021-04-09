@@ -6,6 +6,7 @@
   --h-and-li-cl: #212121;
   --background-header: #ffffff;
   --background-footer: #2f303a;
+  --body-cl: #757575;
 }
 /* не знаю как по другому, но работает))) */
 header a[href^='./i']:visited {
@@ -47,7 +48,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--body-cl);
   background-color: #e5e5e5;
 }
 
@@ -135,4 +136,9 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--h-and-li-cl);
+}
+.works-p {
+  font-family: var(--hero-font);
+  font-size: 16px;
+  line-height: 1.87;
 }
