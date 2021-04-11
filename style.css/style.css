@@ -171,6 +171,6 @@ footer .logo-studio {
 ul li {
   list-style-type: none;
 }
-.nav .current {
+.current {
   color: var(--a-focus-cl);
 }
