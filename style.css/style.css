@@ -8,28 +8,16 @@
   --background-footer: #2f303a;
   --body-cl: #757575;
 }
-/* не знаю как по другому, но работает))) */
-header a[href^='./i']:visited {
-  color: var(--h-and-li-cl);
-}
-footer a[href^='./i'] {
-  color: var(--background-header);
+
+body {
+  font-family: var(--hero-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--body-cl);
+  background-color: #e5e5e5;
 }
 
-.logo-web {
-  color: var(--a-focus-cl);
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
-.logo-studio {
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
 header {
   background-color: var(--background-header);
 }
@@ -43,14 +31,6 @@ footer a {
   color: var(--background-header);
 }
 
-body {
-  font-family: var(--hero-font);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--body-cl);
-  background-color: #e5e5e5;
-}
 
 a:focus,
 a:hover {
@@ -63,9 +43,57 @@ button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-a {
+footer a {
+   color: color: rgba(255, 255, 255, 0.6);;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+header a {
   color: var(--h-and-li-cl);
   text-decoration: none;
+  font-weight: 500;
+  font-family: var(--hero-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+
+button {
+  font-weight: 500;
+  cursor: pointer;
+  font-family: var(--hero-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.logo-web {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--a-focus-cl);
+}
+.logo-studio {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--h-and-li-cl);
+}
+footer .logo-studio {
+  color: var(--hero-cl);
 }
 
 .h1 {
@@ -84,13 +112,10 @@ a {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
-  align-items: center;
-  text-align: center; /* <--- почему не работает?)) */
   letter-spacing: 0.06em;
   color: var(--h-and-li-cl);
   background: #f5f4fa;
   border-radius: 4px;
-  cursor: pointer;
 }
 
 .dignity-li {
@@ -141,4 +166,11 @@ a {
   font-family: var(--hero-font);
   font-size: 16px;
   line-height: 1.87;
+}
+
+ul li {
+  list-style-type: none;
+}
+.nav .current {
+  color: var(--a-focus-cl);
 }
