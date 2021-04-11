@@ -29,6 +29,11 @@ footer a {
 }
 .addres {
   color: var(--background-header);
+  font-family: var(--hero-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 a:focus,
