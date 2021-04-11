@@ -31,7 +31,6 @@ footer a {
   color: var(--background-header);
 }
 
-
 a:focus,
 a:hover {
   color: var(--a-focus-cl);
@@ -44,10 +43,10 @@ button:hover {
   border-radius: 4px;
 }
 footer a {
-   color: color: rgba(255, 255, 255, 0.6);;
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: var(--hero-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,17 +57,16 @@ header a {
   text-decoration: none;
   font-weight: 500;
   font-family: var(--hero-font);
-    font-size: 14px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 
 button {
   font-weight: 500;
   cursor: pointer;
   font-family: var(--hero-font);
-   font-size: 16px;
+  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
